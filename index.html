@@ -1,0 +1,23 @@
+---
+layout: default
+title: Nathan Parry
+---
+<h2>Hello</h2>
+<p>I'm a software developer living in <a href="http://en.wikipedia.org/wiki/Columbus,_oh">Columbus, OH</a>.
+You can reach me at <a href="mailto:nparry@gmail.com">nparry@gmail.com</a>.</p>
+
+<h3>Project potpourri</h3>
+<ul>
+  <li>I created a <a href="qsb_delicious_plugin/">Delicious plugin for Google Quick Search Box</a>.</li>
+  <li>To learn <a href="http://www.scala-lang.org/">Scala</a> I wrote an <a href="https://github.com/nparry/smircd">IRC daemon that no one uses</a>!</li>
+  <li>I've done some <a href="https://github.com/jenkinsci/jenkins/commit/18327e9de69b2937ce29730071ba818899c7ac51">random</a> <a href="https://github.com/jenkinsci/jenkins/commit/a88920aab7b1e35c24b4adb7a297bd04d35ed9a3">hacking</a> on the <a href="http://jenkins-ci.org/">Jenkins CI server</a>.</li>
+</ul>
+<p>More tidbits are available on <a href="https://github.com/nparry">my Github page</a>.</p>
+
+<h3>Infrequent rambling</h3>
+<ul>
+{% for post in site.posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
+{% endfor %}
+</ul>
+
