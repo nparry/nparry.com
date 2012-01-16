@@ -1,0 +1,22 @@
+RedirectMatch ^/post/73383273/.*$ http://nparry.com/2009/01/27/delicious-plugin-for-google-quick-search-box.html
+RedirectMatch ^/post/73615665/.*$ http://nparry.com/2009/01/27/how-to-set-up-the-delicious-plugin-for-qsb.html
+RedirectMatch ^/post/74562891/.*$ http://nparry.com/2009/01/31/um.html
+RedirectMatch ^/post/75707712/.*$ http://nparry.com/2009/02/04/delicious-plugin-for-qsb-v0-2.html
+RedirectMatch ^/post/76798500/.*$ http://nparry.com/2009/02/09/more-qsb-plugins-move-to-trash.html
+RedirectMatch ^/post/78202946/.*$ http://nparry.com/2009/02/14/building-your-own-qsb-plugins.html
+RedirectMatch ^/post/80943331/.*$ http://nparry.com/2009/02/24/obvious-in-retrospect.html
+RedirectMatch ^/post/82395749/.*$ http://nparry.com/2009/03/01/updated-rot-13-qsb-plugin.html
+RedirectMatch ^/post/83016403/.*$ http://nparry.com/2009/03/03/has-no-one-else-done-this-already.html
+RedirectMatch ^/post/85402847/.*$ http://nparry.com/2009/03/11/howto-switch-the-remote-repo-for-a-git-submodule.html
+RedirectMatch ^/post/85989563/.*$ http://nparry.com/2009/03/13/qsb-plugins-updated-for-vanadium.html
+RedirectMatch ^/post/91001347/.*$ http://nparry.com/2009/03/29/birthdaysync.html
+RedirectMatch ^/post/115035850/.*$ http://nparry.com/2009/05/29/qsb-plugins-updated-for-maganese.html
+RedirectMatch ^/post/312193048/.*$ http://nparry.com/2010/01/02/keychain-access-for-qsb.html
+RedirectMatch ^/post/416669087/.*$ http://nparry.com/2010/02/28/a-bit-more-scala-hacking.html
+RedirectMatch ^/post/479803054/.*$ http://nparry.com/2010/03/28/qsb-delicious-plugin-updated-for-cobalt.html
+RedirectMatch ^/post/729760132/.*$ http://nparry.com/2010/06/24/mini-project.html
+RedirectMatch ^/post/1135145551/.*$ http://nparry.com/2010/09/17/delicious-qsb-plugin-yahoo-based-accounts.html
+RedirectMatch ^/post/3355280901/.*$ http://nparry.com/2011/02/18/blamo.html
+RedirectMatch ^/$ http://nparry.com/2011/02/18/blamo.html
+RedirectMatch ^/page/.*$ http://nparry.com/2011/02/18/blamo.html
+
