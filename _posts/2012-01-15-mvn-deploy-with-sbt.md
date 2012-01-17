@@ -10,20 +10,22 @@ probably has more to do with my sub-par Googling skills than lack of
 answers in the world, but for future reference I got it to work by adding
 the following to `build.sbt`:
 
-    publishMavenStyle := true
+<pre>
+publishMavenStyle := true
 
-    publishTo <<= (version) { version: String =>
-      val repoInfo = if (version.trim.endsWith("SNAPSHOT"))
-          ( "nparry snapshots" -> "/home/nparry/repository.nparry.com/snapshots" )
-        else
-          ( "nparry releases" -> "/home/nparry/repository.nparry.com/releases" )
-      val user = System.getProperty("user.name")
-      val keyFile = (Path.userHome / ".ssh" / "id_rsa").asFile
-      Some(Resolver.ssh(
-        repoInfo._1,
-        "repository.nparry.com",
-        repoInfo._2) as(user, keyFile) withPermissions("0644"))
-    }
+publishTo <<= (version) { version: String =>
+  val repoInfo = if (version.trim.endsWith("SNAPSHOT"))
+      ( "nparry snapshots" -> "/home/nparry/repository.nparry.com/snapshots" )
+    else
+      ( "nparry releases" -> "/home/nparry/repository.nparry.com/releases" )
+  val user = System.getProperty("user.name")
+  val keyFile = (Path.userHome / ".ssh" / "id_rsa").asFile
+  Some(Resolver.ssh(
+    repoInfo._1,
+    "repository.nparry.com",
+    repoInfo._2) as(user, keyFile) withPermissions("0644"))
+}
+</pre>
 
 With this addition in place, invoking `sbt publish` uploads the
 project's JAR file along with a POM, source and javadoc bundles. Note

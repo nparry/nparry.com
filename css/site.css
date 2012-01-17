@@ -1,0 +1,17 @@
+body {
+  padding-top: 1em;
+}
+
+img.avatar {
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+ul.postnav {
+  margin: 0 0 1em 0;
+}
+
+ul.postnav li {
+  display: inline;
+}
+
