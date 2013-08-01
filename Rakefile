@@ -9,7 +9,7 @@ end
  
 desc 'Build and start server with --auto'
 task :server do
-  jekyll '--server --auto'
+  jekyll 'serve --watch'
 end
 
 desc 'Push repository to github'
