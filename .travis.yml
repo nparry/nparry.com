@@ -10,3 +10,6 @@ deploy:
   local-dir: _site
   on:
     repo: nparry/nparry.com
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
