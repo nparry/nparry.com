@@ -1,1 +1,12 @@
 language: ruby
+deploy:
+  provider: s3
+  access_key_id:
+    secure: BAaCIh4Tdbj+qAnm+JOa/Zj2GI6uXU+zu8evRA7vT4mH7t1MG3pUmzKX0kDi4+2dnRN+G/Oa1Y5I6ulMsVgv99DpOzf5jqupq6FnrYtf0obhy8ZxMDlZPbPyfsGiWPo1M50FFMn6MB+SfrPJFS7emTE8Uf0FITI1wwgDJ8KeO0U=
+  secret_access_key:
+    secure: aVluc0LKSppZC7L++KOxWJO0eKz+4FNgt8K2ip4nR4KtZdILMknbmuiyD54jTzt5XcXAuFOnWSiN+qjAqh2VYufwObNKcoCudgiJOJb37xIkzgQxFNxQqCclHMv1deJOn3fDlLKHaVhi9JRrULqoaKdnU+i4CSZN+7A2h++oyvs=
+  bucket: nparry.com
+  skip_cleanup: true
+  local-dir: _site
+  on:
+    repo: nparry/nparry.com
