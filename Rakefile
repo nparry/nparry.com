@@ -5,8 +5,8 @@ task :build do
   jekyll 'build'
 end
 
-desc 'Build and start server with --auto'
-task :server do
+desc 'Serve site locally with Jekyll'
+task :serve do
   jekyll 'serve --watch'
 end
 
