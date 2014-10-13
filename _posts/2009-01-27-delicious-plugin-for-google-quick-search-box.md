@@ -27,7 +27,7 @@ Github](http://github.com/nparry/google-quicksearchbox-plugins/tree/master).
 I'm still an Xcode newbie and could not figure out how to create a working
 Xcode project separate from the main QSB distribution, so you are kind of on
 your own for compiling it at this point. Or, just [grab the prebuilt
-plugin](http://nparry.com/software/google-quicksearchbox-plugins/delicious/Google-QSB-Delicious-v0.1.zip).
+plugin](http://assets.nparry.com/software/google-quicksearchbox-plugins/delicious/Google-QSB-Delicious-v0.1.zip).
 
 Installation instructions are included in the zip.
 

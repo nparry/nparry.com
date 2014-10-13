@@ -11,7 +11,7 @@ title: How to set up the Delicious plugin for QSB
 Right now setting up my Delicious plugin isn't the easiest thing in the
 world - so here are some illustrated step-by-step instructions!
 
-Download and unzip the plugin ([Available here](http://nparry.com/software/google-quicksearchbox-plugins/delicious/Google-QSB-Delicious-v0.1.zip))
+Download and unzip the plugin ([Available here](http://assets.nparry.com/software/google-quicksearchbox-plugins/delicious/Google-QSB-Delicious-v0.1.zip))
 
 ![](/images/howto_setup_delicious_plugin/01_download_plugin.png)
 

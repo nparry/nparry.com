@@ -13,8 +13,8 @@ released](http://groups.google.com/group/qsb-mac-discuss/browse_thread/thread/a4
 a few days back. I've updated my plugins to work with the changes in this
 version.
 
-* [Delicious plugin](http://nparry.com/software/google-quicksearchbox-plugins/delicious/Google-QSB-Delicious-v0.3.zip).
-* [ROT-13 plugin](http://nparry.com/software/google-quicksearchbox-plugins/rot13/Google-QSB-Rot13-v0.3.zip).
+* [Delicious plugin](http://assets.nparry.com/software/google-quicksearchbox-plugins/delicious/Google-QSB-Delicious-v0.3.zip).
+* [ROT-13 plugin](http://assets.nparry.com/software/google-quicksearchbox-plugins/rot13/Google-QSB-Rot13-v0.3.zip).
 
 The install is the usual - download, unzip, move to
 ~/Library/Application Support/Google/Quick Search Box/PlugIns

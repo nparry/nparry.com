@@ -16,7 +16,7 @@ plugin to take advantage of the new feature.
 The code is of course [available on
 GitHub](http://github.com/nparry/google-quicksearchbox-plugins/tree/delicious_v0.2).
 You can grab the pre-built plugin [right
-here](http://nparry.com/software/google-quicksearchbox-plugins/delicious/Google-QSB-Delicious-v0.2.zip).
+here](http://assets.nparry.com/software/google-quicksearchbox-plugins/delicious/Google-QSB-Delicious-v0.2.zip).
 
 Installation is a bit easier this time:
 

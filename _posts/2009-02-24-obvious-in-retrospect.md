@@ -9,7 +9,7 @@ title: Obvious in retrospect
 
 
 I can't believe I didn't think to write this earlier - [rot13 plugin for
-QSB](http://nparry.com/software/google-quicksearchbox-plugins/rot13/Google-QSB-Rot13-v0.1.zip).
+QSB](http://assets.nparry.com/software/google-quicksearchbox-plugins/rot13/Google-QSB-Rot13-v0.1.zip).
 Same install process as [all the other
 plugins](/2009/02/04/delicious-plugin-for-qsb-v0-2.html).
 
