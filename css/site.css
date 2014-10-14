@@ -18,11 +18,13 @@ h1.frontpage {
 
 h1 small {
   display: block;
+  font-size: 60%;
 }
 
 @media (min-width: 768px) {
   h1 small {
     display: inline;
+    font-size: 65%;
   }
 }
 
