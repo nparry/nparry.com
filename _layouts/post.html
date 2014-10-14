@@ -2,12 +2,12 @@
 layout: page
 ---
 
-<ul class="list-inline">
+<ul role="navigation" class="list-inline">
 {% if page.previous %}
-  <li><a rel="prev" href="{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous post</a></li>
+  <li><a rel="prev" href="{{ page.previous.url }}" title="{{ page.previous.title }}"><span aria-hidden="true">&larr;</span> Previous post</a></li>
 {% endif %}
 {% if page.next %}
-  <li><a rel="next" href="{{ page.next.url }}" title="{{ page.next.title }}">Next post &rarr;</a></li>
+  <li><a rel="next" href="{{ page.next.url }}" title="{{ page.next.title }}">Next post <span aria-hidden="true">&rarr;</span></a></li>
 {% endif %}
 </ul>
 <h2>{{ page.title }}</h2>
