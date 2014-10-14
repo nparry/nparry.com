@@ -1,17 +1,50 @@
 body {
-  padding-top: 1em;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 3em;
 }
 
-img.avatar {
+h1, h2, h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+@media (max-width: 767px) {
+  h1 small {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  h1.frontpage small {
+    display: inline-block;
+    font-size: 55%;
+    width: 8em;
+  }
+
+  h1.frontpage a {
+    font-size: 135%;
+  }
+}
+
+.avatar {
   border: 1px solid white;
   border-radius: 20px;
 }
 
-ul.postnav {
-  margin: 0 0 1em 0;
+.icon {
+  width: 64px;
+  height: 64px;
 }
 
-ul.postnav li {
-  display: inline;
+.postlist li {
+  margin-bottom: 0.25em;
+}
+
+.postlist span {
+  color: rgb(119, 119, 119);
 }
 

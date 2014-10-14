@@ -3,15 +3,20 @@ layout: default
 title: Nathan Parry
 ---
 <div class="row">
-  <div class="span4">
-    <img class="avatar" src="/images/cartoon-avatar.svg" width="180" height="180" />
+  <div class="col-md-4 visible-md-block visible-lg-block">
+    <img class="avatar img-responsive" alt="Avatar" src="/images/cartoon-avatar.svg">
     <a style="display: none" href='https://alpha.app.net/nparry' rel='me'></a>
   </div>
 
-  <div class="span12">
-    <h2>Hello</h2>
+  <div class="col-md-8">
+    <h1 class="frontpage"><small>The underwhelming web presence of</small> <a href="/">Nathan Parry</a></h1>
     <p>I'm a software developer living in <a href="http://en.wikipedia.org/wiki/Columbus,_oh">Columbus, OH</a>.
-    You can reach me at <a href="mailto:nparry@gmail.com">nparry@gmail.com</a>.</p>
+    <ul class="list-inline">
+      <li><a href="mailto:nparry@gmail.com"><img class="icon" alt="Contact me via email" src="/images/icon_email.png"></a></li>
+      <li><a href="https://twitter.com/nriposte/"><img class="icon" alt="Follow me on Twitter" src="/images/icon_twitter.png"></a></li>
+      <li><a href="https://github.com/nparry/"><img class="icon" alt="View my projects on Github" src="/images/icon_github.png"></a></li>
+      <li><a href="https://www.linkedin.com/profile/view?id=336607367"><img class="icon" alt="View my profile in LinkedIn" src="/images/icon_linkedin.png"></a></li>
+    </ul>
 
     <h3>Project potpourri</h3>
     <ul>
@@ -20,15 +25,17 @@ title: Nathan Parry
       <li>To learn <a href="http://www.scala-lang.org/">Scala</a> I wrote an <a href="https://github.com/nparry/smircd">IRC daemon that no one uses</a>!</li>
       <li>I created a <a href="qsb_delicious_plugin/">Delicious plugin for Google Quick Search Box</a>.</li>
     </ul>
-
-    <p>More tidbits are available on <a href="https://github.com/nparry">my Github page</a>.</p>
   </div>
 </div>
 
-<h3>Infrequent rambling</h3>
-<ul>
-{% for post in site.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
-{% endfor %}
-</ul>
+<div class="row">
+  <div class="col-md-9">
+    <h3>Infrequent rambling</h3>
+    <ul class="list-unstyled postlist">
+    {% for post in site.posts %}
+      <li><span class="pull-right">{{ post.date | date_to_string }} </span><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
 
