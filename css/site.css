@@ -10,6 +10,7 @@ h1, h2, h3 {
 
 h1 {
   margin-top: 0;
+  font-size: 55px;
 }
 
 h1.frontpage {
@@ -18,10 +19,13 @@ h1.frontpage {
 
 h1 small {
   display: block;
-  font-size: 60%;
+  font-size: 35%;
 }
 
 @media (min-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
   h1 small {
     display: inline;
     font-size: 65%;
@@ -49,6 +53,10 @@ h1 small {
   width: 150px;
   height: auto;
   margin-right: 1em;
+}
+
+.contact-links li {
+  padding-left: 0;
 }
 
 .icon {
