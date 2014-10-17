@@ -57,11 +57,24 @@ h1 small {
 
 .contact-links li {
   padding-left: 0;
+  font-size: 32px;
 }
 
-.icon {
-  width: 64px;
-  height: 64px;
+.contact-links a {
+  color: #3C4D5B;
+}
+
+.contact-links a:hover {
+  color: #6F808E;
+}
+
+.hidden {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
 }
 
 .postlist li {
