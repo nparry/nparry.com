@@ -10,7 +10,7 @@ title: The underwhelming web presence of Nathan Parry
 
   <div class="col-md-8">
     <img class="avatar avatar-small pull-left visible-sm-block" alt="" src="/images/cartoon-avatar.svg">
-    <h1 class="frontpage"><small>The underwhelming web presence of</small> Nathan Parry</h1>
+    <h1 class="welcome"><small>The underwhelming web presence of</small> Nathan Parry</h1>
     <p>I'm a software developer in <a aria-label="Wikipedia article" href="http://en.wikipedia.org/wiki/Columbus,_oh">Columbus, OH</a>.
     <ul class="list-inline contact-links">
       <li><a title="Contact me via email" href="mailto:nparry@gmail.com">
@@ -44,7 +44,7 @@ title: The underwhelming web presence of Nathan Parry
     </ul>
 
     <h3>Project potpourri</h3>
-    <ul>
+    <ul class="project-list">
       <li>To learn <a href="http://coffeescript.org/">CoffeeScript</a> I wrote a <a href="https://github.com/nparry/hubot-scripts/blob/53b7fd617676aee4433652cd6e649050e1440faa/src/scripts/gerrit.coffee">Gerrit script for Hubot</a>.</li>
       <li>I've done some <a title="Configurable ping interval for Jenkins nodes" aria-label="Configurable ping interval for Jenkins nodes" href="https://github.com/jenkinsci/jenkins/commit/18327e9de69b2937ce29730071ba818899c7ac51">random</a> <a title="Persist a user-requested offline status for Jenkins nodes across restarts" aria-label="Persist a user-requested offline status for Jenkins nodes across restarts" href="https://github.com/jenkinsci/jenkins/commit/a88920aab7b1e35c24b4adb7a297bd04d35ed9a3">hacking</a> on the <a href="http://jenkins-ci.org/">Jenkins CI server</a>.</li>
       <li>To learn <a href="http://www.scala-lang.org/">Scala</a> I wrote an <a href="https://github.com/nparry/smircd">IRC daemon that no one uses</a>!</li>
@@ -56,7 +56,7 @@ title: The underwhelming web presence of Nathan Parry
 <div class="row">
   <div class="col-md-9">
     <h3>Infrequent rambling</h3>
-    <ul class="list-unstyled postlist">
+    <ul class="list-unstyled post-list">
     {% for post in site.posts %}
       <li><span class="pull-right">{{ post.date | date_to_string }} </span><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
