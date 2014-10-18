@@ -64,8 +64,12 @@ h1 small {
   color: #3C4D5B;
 }
 
-.contact-links a:hover {
-  color: #6F808E;
+.contact-links a:hover b {
+  text-shadow:
+    -2px -2px 0 #6599C3,
+    2px -2px 0 #6599C3,
+    -2px 2px 0 #6599C3,
+    2px 2px 0 #6599C3;
 }
 
 .hidden {
