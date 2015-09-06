@@ -65,12 +65,12 @@ h1 small {
   color: #3C4D5B;
 }
 
-.contact-links a:hover b {
-  text-shadow:
-    -2px -2px 0 #6599C3,
-    2px -2px 0 #6599C3,
-    -2px 2px 0 #6599C3,
-    2px 2px 0 #6599C3;
+.fa-stack:hover {
+  border-radius: 50%;
+  box-shadow: 4px 4px 0 -2px #3C4D5B;
+  -webkit-transition: box-shadow 0.2s;
+  -moz-transition: box-shadow 0.2s;
+  transition: box-shadow: 0.2s;
 }
 
 .hidden {
