@@ -9,14 +9,14 @@ title: Delicious plugin for QSB, v0.2
 
 
 Google released an [updated version of
-QSB](http://groups.google.com/group/qsb-mac-discuss/browse_thread/thread/8889dbfe98a40ab4)
+QSB](https://groups.google.com/group/qsb-mac-discuss/browse_thread/thread/8889dbfe98a40ab4)
 with support for custom account types. Woohoo! So, I've updated my Delicious
 plugin to take advantage of the new feature.
 
 The code is of course [available on
-GitHub](http://github.com/nparry/google-quicksearchbox-plugins/tree/delicious_v0.2).
+GitHub](https://github.com/nparry/google-quicksearchbox-plugins/tree/delicious_v0.2).
 You can grab the pre-built plugin [right
-here](http://assets.nparry.com/software/google-quicksearchbox-plugins/delicious/Google-QSB-Delicious-v0.2.zip).
+here](https://assets.nparry.com/software/google-quicksearchbox-plugins/delicious/Google-QSB-Delicious-v0.2.zip).
 
 Installation is a bit easier this time:
 

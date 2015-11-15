@@ -13,7 +13,7 @@ find a free app to push birthdays from my Address Book to Google
 calendar.
 
 In disbelief I've started to [write my
-own](http://github.com/nparry/birthdaysync/tree/master), but someone else must
+own](https://github.com/nparry/birthdaysync/tree/master), but someone else must
 have already done this, or I'm missing some obvious built-in way to do it.
 Anyone?
 

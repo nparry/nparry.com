@@ -14,7 +14,7 @@ and I was managing my plugins with git.
 Happily, I think I've improved the situation a bit.
 
 First, many thanks to Steven Noonan who set up a [QSB mirror on
-github](http://github.com/tycho/qsb-mac/tree/master) - I'm now able to include
+github](https://github.com/tycho/qsb-mac/tree/master) - I'm now able to include
 the QSB code base in my own plugin project via git submodules.
 
 Next, I continued my slow learning experience with xcode and eventually figured
@@ -33,5 +33,5 @@ should gracefully handle updates to the main QSB code base. And I
 learned a bit about git and xcode along the way ;-)
 
 If you are interested you can check out the [xcode project in the github
-repository](http://github.com/nparry/google-quicksearchbox-plugins/tree/master).
+repository](https://github.com/nparry/google-quicksearchbox-plugins/tree/master).
 

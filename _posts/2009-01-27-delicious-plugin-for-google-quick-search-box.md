@@ -9,7 +9,7 @@ title: Delicious plugin for Google Quick Search Box
 
 
 So, a week or two ago Google released a new project - [Quick Search
-Box](http://code.google.com/p/qsb-mac/). Seems to be the new Quicksilver. The
+Box](https://code.google.com/p/qsb-mac/). Seems to be the new Quicksilver. The
 early builds seemed nice, if a bit crashy. I am by
 no means a Quicksilver power user, but I did use the Delicious plugin for quick
 access to my bookmarks.
@@ -23,11 +23,11 @@ hand-full of birds with one stone:
 
 All of that to say - I've written a plugin for Quick Search Box to add
 Delicious support. The code [is on
-Github](http://github.com/nparry/google-quicksearchbox-plugins/tree/master).
+Github](https://github.com/nparry/google-quicksearchbox-plugins/tree/master).
 I'm still an Xcode newbie and could not figure out how to create a working
 Xcode project separate from the main QSB distribution, so you are kind of on
 your own for compiling it at this point. Or, just [grab the prebuilt
-plugin](http://assets.nparry.com/software/google-quicksearchbox-plugins/delicious/Google-QSB-Delicious-v0.1.zip).
+plugin](https://assets.nparry.com/software/google-quicksearchbox-plugins/delicious/Google-QSB-Delicious-v0.1.zip).
 
 Installation instructions are included in the zip.
 

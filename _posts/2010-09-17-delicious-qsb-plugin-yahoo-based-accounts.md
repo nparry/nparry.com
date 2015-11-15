@@ -7,6 +7,6 @@ title: Delicious QSB plugin + Yahoo based accounts
 
 A long standing issue with the Delicious plugin for QSB has been that it didn't
 work with Yahoo based accounts. Well, [it should work
-now](http://code.google.com/p/qsb-mac-plugins/issues/detail?id=5). Hopefully
+now](https://code.google.com/p/qsb-mac-plugins/issues/detail?id=5). Hopefully
 I'll have the source pushed up to the svn repo in a few days.
 

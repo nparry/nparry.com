@@ -6,6 +6,6 @@ title: BirthdaySync
 ---
 
 Forgot to mention - I finally got my [Contacts' birthdays to Google Calendar
-sync app](http://github.com/nparry/birthdaysync/tree/master) into a functional
+sync app](https://github.com/nparry/birthdaysync/tree/master) into a functional
 state.  It is pretty bare bones but it gets the job done. 
 

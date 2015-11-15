@@ -11,7 +11,7 @@ convenience that I was missing.
 
 I imagine this functionality will eventually make it into QSB proper,
 but until then you can [grab the plugin
-here](http://assets.nparry.com/software/google-quicksearchbox-plugins/extra_file_actions/Google-QSB-ExtraFileActions-v0.1.zip)
+here](https://assets.nparry.com/software/google-quicksearchbox-plugins/extra_file_actions/Google-QSB-ExtraFileActions-v0.1.zip)
 if you are interested. The install process follows the same idea as my
 [Delicious plugin
 install](/2009/02/04/delicious-plugin-for-qsb-v0-2.html).

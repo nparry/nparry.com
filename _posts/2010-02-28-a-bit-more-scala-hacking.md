@@ -6,6 +6,6 @@ title: A bit more Scala hacking...
 ---
 
 ... and we have a [rudimentary JSON schema
-validator](http://github.com/nparry/orderly4jvm) that dovetails nicely with the
+validator](https://github.com/nparry/orderly4jvm) that dovetails nicely with the
 Orderly parser - usable from Java or Scala.
 

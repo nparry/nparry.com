@@ -6,7 +6,7 @@ title: QSB Delicious plugin updated for Cobalt
 ---
 
 The latest [QSB
-update](http://groups.google.com/group/qsb-mac-discuss/browse_frm/thread/fef5f5a501a025d3)
+update](https://groups.google.com/group/qsb-mac-discuss/browse_frm/thread/fef5f5a501a025d3)
 necessitated some changes to the Delicious plugin - the [plugin info page has
-the details](http://nparry.com/qsb_delicious_plugin/).
+the details](https://nparry.com/qsb_delicious_plugin/).
 

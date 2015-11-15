@@ -4,8 +4,8 @@ date: 2012-06-03
 title: Gerrit and Hubot
 ---
 
-For a weekend project I created a <a href="http://code.google.com/p/gerrit/">Gerrit</a>
-script for <a href="http://hubot.github.com/">Hubot</a>. It lets you
+For a weekend project I created a <a href="https://code.google.com/p/gerrit/">Gerrit</a>
+script for <a href="https://hubot.github.com/">Hubot</a>. It lets you
 query Gerrit for changes via Hubot, and enables Hubot to spam your chat
 room with Gerrit events as they happen. The script is now part of the
 <a href="https://github.com/github/hubot-scripts">hubot-scripts</a>

@@ -9,12 +9,12 @@ title: QSB plugins updated for Vanadium
 
 
 QSB Vanadium [was
-released](http://groups.google.com/group/qsb-mac-discuss/browse_thread/thread/a46b037045ec11b1)
+released](https://groups.google.com/group/qsb-mac-discuss/browse_thread/thread/a46b037045ec11b1)
 a few days back. I've updated my plugins to work with the changes in this
 version.
 
-* [Delicious plugin](http://assets.nparry.com/software/google-quicksearchbox-plugins/delicious/Google-QSB-Delicious-v0.3.zip).
-* [ROT-13 plugin](http://assets.nparry.com/software/google-quicksearchbox-plugins/rot13/Google-QSB-Rot13-v0.3.zip).
+* [Delicious plugin](https://assets.nparry.com/software/google-quicksearchbox-plugins/delicious/Google-QSB-Delicious-v0.3.zip).
+* [ROT-13 plugin](https://assets.nparry.com/software/google-quicksearchbox-plugins/rot13/Google-QSB-Rot13-v0.3.zip).
 
 The install is the usual - download, unzip, move to
 ~/Library/Application Support/Google/Quick Search Box/PlugIns
